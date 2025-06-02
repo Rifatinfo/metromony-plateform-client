@@ -4,7 +4,7 @@ const CardPagination = () => {
     return (
         <div className="flex justify-center items-center mt-10">
             <Pagination
-                count={10}
+                count={6}
                 variant="outlined"
                 sx={{
                     '& .MuiPaginationItem-root': {
