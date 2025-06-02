@@ -11,7 +11,7 @@ const Banner = () => {
       }}
     >
       <div className="hero-overlay"></div>
-      <div className="mt-30 text-center md:mt-40 w-full">
+      <div className="mt-30 text-center md:mt-80 w-full">
         <div className="">
           <h1 className="mb-5 text-2xl md:text-5xl font-bold text-white">We bring Jodidar together <br /> love unites them ...<br />
           </h1>
