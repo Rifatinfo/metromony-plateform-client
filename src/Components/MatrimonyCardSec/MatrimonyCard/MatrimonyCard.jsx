@@ -1,6 +1,6 @@
 const MatrimonyCard = () => {
   return (
-    <div className="md:flex flex-col text-center items-center max-w-md  rounded-md shadow-xl  overflow-hidden border-transparent   hover:shadow-lg hover:scale-105 transition-all duration-300">
+    <div className="md:flex text-center items-center max-w-md  rounded-md shadow-xl  overflow-hidden border-transparent   hover:shadow-lg hover:scale-105 transition-all duration-300">
       {/* Profile Image */}
       <img
         src="https://img.freepik.com/free-photo/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343.jpg?ga=GA1.1.860420525.1723460227&semt=ais_items_boosted&w=740"
