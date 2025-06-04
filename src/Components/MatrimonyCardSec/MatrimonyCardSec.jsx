@@ -3,7 +3,7 @@ import MatrimonyCard from "./MatrimonyCard/MatrimonyCard";
 
 const MatrimonyCardSec = () => {
     return (
-        <div className="mt-10 max-w-7xl mx-auto">
+        <div className="mt-10 max-w-7xl mx-auto bg-[linear-gradient(135deg,_#fff5f6,_#fef2f3)]">
             {/* title section */}
             <div className="text-center space-y-2 ">
                 <h1 className="font-semibold text-4xl text-rose-600">Profile May You Interested</h1>

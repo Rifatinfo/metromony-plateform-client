@@ -13,7 +13,7 @@ import img_5 from "../../assets/5.png"
 import img_6 from "../../assets/6.png"
 const HowWorking = () => {
     return (
-        <div className="mt-14">
+        <div className="mt-14 mb-10">
             <div className="text-center space-y-2">
                 <h1 className="font-semibold text-4xl text-rose-600">Moments</h1>
                 <p>How It Works</p>

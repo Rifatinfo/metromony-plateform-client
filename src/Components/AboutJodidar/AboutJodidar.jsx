@@ -2,7 +2,7 @@ import about_img from  '../../assets/about_img.jpg';
 
 const AboutJodidar = () => {
   return (
-    <div className="bg-white py-16 px-4 sm:px-6  overflow-hidden">
+    <div className="bg-white py-16 px-4 sm:px-6  overflow-hidden bg-[linear-gradient(135deg,_#fff5f6,_#fef2f3)]">
       <div className=" max-w-7xl mx-auto grid md:grid-cols-2 gap-4 items-center">
         {/* Left Images */}
         <div className=" space-y-4">

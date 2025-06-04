@@ -2,7 +2,8 @@ import SuccessCart from "./SuccessCart";
 
 const SuccessStory = () => {
     return (
-        <div className="max-w-7xl mx-auto mt-30">
+        <div className="bg-[linear-gradient(135deg,_#fff5f6,_#fef2f3)] py-2">
+            <div className="max-w-7xl mx-auto mt-30 ">
             {/* title */}
             <div className="text-center space-y-2 ">
                 <h1 className="font-semibold text-4xl text-rose-600">Success Story</h1>
@@ -16,6 +17,7 @@ const SuccessStory = () => {
                 <SuccessCart/>
                 <SuccessCart/>
             </div>
+        </div>
         </div>
     );
 };
