@@ -7,12 +7,13 @@ const BannerForm = () => {
         )
     }
     return (
-        <div className="hidden md:flex md:h-30 border max-w-7xl mx-auto items-center justify-center rounded-md bg-white text-black">
+        <div className="hidden md:flex md:h-30  max-w-7xl mx-auto items-center justify-center rounded-md bg-white text-black">
             <div className=" bg-opacity-90 p-4 rounded-md  w-full mx-auto">
                 <form className="flex flex-col md:flex-row flex-wrap items-center justify-center gap-3">
                     <div className="flex items-center gap-2 w-full md:w-auto">
                         <span className="text-[12px] md:text-[16px] font-medium whitespace-normal">I'm looking for a</span>
                         <select className="border-b-[3px] border-rose-600 text-rose-600  rounded px-10 font-semibold py-2 text-sm w-full md:w-auto">
+                            <option>select</option>
                             <option>Women</option>
                             <option>Man</option>
                         </select>
@@ -28,6 +29,7 @@ const BannerForm = () => {
                     <div className="flex items-center gap-2 w-full md:w-auto">
                         <span className="text-[12px] md:text-[16px] font-medium whitespace-nowrap">of religious</span>
                         <select className="border-b-[3px] border-rose-600 text-rose-600  rounded px-10 font-semibold py-2 text-sm w-full md:w-auto">
+                            <option>Select</option>
                             <option>Islam</option>
                             <option>Other</option>
                         </select>

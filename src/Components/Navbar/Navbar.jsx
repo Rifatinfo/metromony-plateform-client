@@ -3,6 +3,7 @@ import { useState } from "react";
 import { IoClose } from "react-icons/io5";
 import { PiCloverFill } from "react-icons/pi";
 import { IoMdMenu } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
     const Links = [
@@ -10,7 +11,8 @@ const Nav = () => {
         { name: 'My Matrimony', link: '/my-matrimony' },
         { name: 'Matches', link: '/matches' },
         { name: 'Search', link: '/search' },
-        { name: 'Inbox', link: '/inbox' }
+        { name: 'Inbox', link: '/inbox' },
+        { name: 'Add Profile', link: '/add-profile' }
     ];
     
     const [open, setOpen] = useState(false);
@@ -39,7 +41,7 @@ const Nav = () => {
                             <a href={link.link} className="text-white hover:text-gray-400 duration-500">{link.name}</a>
                         </li>
                     ))}
-                    <button className="ml-8 font-semibold px-6 py-3 text-white bg-rose-600 rounded-3xl">Sign Up</button>
+                    <Link to="/login"><button className="ml-8 font-semibold px-6 py-3 text-white bg-rose-600 rounded-3xl">Sign Up</button></Link>
                 </ul>
             </div>
         </div>

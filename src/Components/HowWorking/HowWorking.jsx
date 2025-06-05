@@ -30,7 +30,7 @@ const HowWorking = () => {
                         <TimelineContent>
                             <div>
                                 <div>
-                                    <img className='' src={img_2} alt="" />
+                                    <img className='rounded-full h-30 w-30' src={img_2} alt="" />
                                 </div>
                                 <div className="space-y-2 ml-6 md:ml-10">
                                     <p className="md:text-xl font-semibold text-rose-600">Register</p>
@@ -47,7 +47,7 @@ const HowWorking = () => {
                         <TimelineContent>
                           <div>
                                 <div className='flex justify-end items-end'>
-                                    <img className='' src={img_3} alt="" />
+                                    <img className='rounded-full h-30 w-30' src={img_3} alt="" />
                                 </div>
                                 <div className="space-y-2 mr-6 md:mr-10">
                                     <p className="md:text-xl font-semibold text-rose-600">Register</p>
@@ -64,7 +64,7 @@ const HowWorking = () => {
                         <TimelineContent>
                             <div>
                                 <div>
-                                    <img className='' src={img_4} alt="" />
+                                    <img className='rounded-full h-30 w-30' src={img_4} alt="" />
                                 </div>
                                 <div className="space-y-2 ml-6 md:ml-10">
                                     <p className="md:text-xl font-semibold text-rose-600">Register</p>
@@ -81,7 +81,7 @@ const HowWorking = () => {
                         <TimelineContent>
                              <div>
                                 <div className='flex justify-end items-end'>
-                                    <img className='' src={img_5} alt="" />
+                                    <img className='rounded-full h-30 w-30' src={img_5} alt="" />
                                 </div>
                                 <div className="space-y-2 mr-6 md:mr-10">
                                     <p className="md:text-xl font-semibold text-rose-600">Register</p>
@@ -98,7 +98,7 @@ const HowWorking = () => {
                         <TimelineContent>
                             <div>
                                 <div>
-                                    <img className='' src={img_6} alt="" />
+                                    <img className='rounded-full h-30 w-30' src={img_6} alt="" />
                                 </div>
                                 <div className="space-y-2 ml-6 md:ml-10">
                                     <p className="md:text-xl font-semibold text-rose-600">Register</p>
@@ -115,7 +115,7 @@ const HowWorking = () => {
                         <TimelineContent>
                              <div>
                                 <div className='flex justify-end items-end'>
-                                    <img className='' src={img_1} alt="" />
+                                    <img className='rounded-full h-30 w-30' src={img_1} alt="" />
                                 </div>
                                 <div className="space-y-2 mr-6 md:mr-10">
                                     <p className="md:text-xl font-semibold text-rose-600">Register</p>
