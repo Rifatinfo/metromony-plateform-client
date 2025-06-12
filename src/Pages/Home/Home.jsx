@@ -9,7 +9,6 @@ import Stikar from "../../Components/Stikar/Stikar";
 import SuccessStory from "../../Components/SuccessStory/SuccessStory";
 import TestimonialSec from "../../Components/TestimonialSec/TestimonialSec";
 import WhyChooseUs from "../../Components/WhyChooseUs/WhyChooseUs";
-import Login from "../Login/Login";
 
 const Home = () => {
     return (
@@ -25,7 +24,6 @@ const Home = () => {
             <OTPForm/>
             <AddProfile/>
             <TestimonialSec/>
-            <Login/>
         </div>
     );
 };

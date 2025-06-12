@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const BannerForm = () => {
     const ageOption = [];
@@ -46,7 +47,7 @@ const BannerForm = () => {
                     </div>
 
                     <div className="w-full md:w-auto mt-2 md:mt-0">
-                      <button className="btn border-none shadow-none text-white bg-rose-600 w-full  md:w-auto font-medium px-10 py-4 rounded ">SEARCH</button>
+                     <Link to="/matching-profile"><button className="btn border-none shadow-none text-white bg-rose-600 w-full  md:w-auto font-medium px-10 py-4 rounded ">SEARCH</button></Link>
                     </div>
                 </form>
             </div>

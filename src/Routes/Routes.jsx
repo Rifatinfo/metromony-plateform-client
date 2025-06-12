@@ -5,6 +5,7 @@ import Home from "../Pages/Home/Home";
 import Root from "../Root/Root";
 import Login from "../Pages/Login/Login";
 import SignUp from "../Pages/SignUp/SignUp";
+import MatchingProfile from "../Pages/MatchingProfile/MatchingProfile";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
         path: "/sign-up",
         element: <SignUp/>,
       },
+      {
+        path : "/matching-profile",
+        element : <MatchingProfile/>
+      }
     ],
   },
 ]);

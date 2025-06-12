@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import BannerForm from "../BannerForm/BannerForm";
 const Banner = () => {
   return (
@@ -15,7 +16,7 @@ const Banner = () => {
           </h1>
           <BannerForm />
           <div className="md:hidden px-4 w-full md:w-auto mt-2 md:mt-0">
-            <button className="btn border-none shadow-none text-white bg-rose-600 w-full md:w-auto font-medium px-8 py-4 rounded ">SEARCH BY YOUR CHOOSE</button>
+            <Link to="/matching-profile"><button className="btn border-none shadow-none text-white bg-rose-600 w-full md:w-auto font-medium px-8 py-4 rounded">SEARCH BY YOUR CHOOSE</button></Link>
           </div>
         </div>
       </div>
